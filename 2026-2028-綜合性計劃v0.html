@@ -1,205 +1,342 @@
 <!DOCTYPE html>
+
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🌟 兩年期無壓跨領域完整計畫：心理轉考 ✕ 全端 ✕ 雙語 ✕ 兼職</title>
+<title>兩年期 (Q1-Q8) 跨領域無壓養成：每週全景計畫表</title>
 <style>
   :root { 
-    --primary: #42b983; 
-    --secondary: #2c3e50; 
-    --psy: #9b59b6; 
-    --stat: #e67e22; 
-    --code: #3498db; 
-    --lang: #e74c3c; 
-    --bg: #f8fbf9; 
+    --primary: #2C3E50; --psy: #8E44AD; --stat: #D35400; 
+    --code: #2980B9; --lang: #27AE60; --bg: #F8FAFC; 
   }
-  body { 
-    font-family: 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-serif; 
-    line-height: 1.6; 
-    color: #333; 
-    background-color: #f0f4f8; 
-    padding: 20px; 
-  }
-  .container { 
-    max-width: 1200px; 
-    margin: 0 auto; 
-    background: #fff; 
-    padding: 40px; 
-    border-radius: 12px; 
-    box-shadow: 0 8px 30px rgba(0,0,0,0.08); 
-  }
-  h1 { color: var(--secondary); text-align: center; border-bottom: 4px solid var(--primary); padding-bottom: 15px; margin-bottom: 30px; font-size: 2.2em; }
-  h2 { color: #fff; background: var(--secondary); padding: 12px 20px; border-radius: 6px; margin-top: 40px; }
-  h3 { color: var(--primary); border-left: 5px solid var(--primary); padding-left: 12px; margin-top: 25px; }
-  .methodology { background: var(--bg); border: 2px solid var(--primary); padding: 20px; border-radius: 8px; margin: 20px 0; }
-  .indicator-box { background: #fff; border-left: 5px solid var(--code); padding: 15px; margin: 15px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-  table { width: 100%; border-collapse: collapse; margin-top: 15px; margin-bottom: 25px; background: #fff; }
-  th, td { border: 1px solid #e0e0e0; padding: 14px; text-align: left; }
-  th { background-color: #f4f6f7; color: var(--secondary); font-weight: bold; }
-  tr:hover { background-color: #fbfcfc; }
-  .tag { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold; color: #fff; margin-bottom: 4px; }
+  body { font-family: 'Segoe UI', 'PingFang TC', sans-serif; line-height: 1.6; color: #333; background: var(--bg); padding: 20px; }
+  .container { max-width: 1200px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); }
+  h1 { color: var(--primary); text-align: center; border-bottom: 3px solid #3498DB; padding-bottom: 15px; }
+  h2 { color: #fff; background-color: #34495E; padding: 10px 15px; border-radius: 6px; margin-top: 40px; }
+  .philosophy { background: #E8F6F3; border-left: 5px solid #1ABC9C; padding: 15px; border-radius: 4px; margin-bottom: 20px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 15px; margin-bottom: 30px; font-size: 0.95em; }
+  th, td { border: 1px solid #E0E0E0; padding: 12px; text-align: left; vertical-align: top; }
+  th { background-color: #ECF0F1; color: var(--primary); font-weight: bold; text-align: center; }
+  tr:hover { background-color: #FAFAFA; }
+  .week-col { width: 10%; font-weight: bold; text-align: center; background-color: #F8F9F9; color: #E74C3C; }
+  .tag { display: inline-block; padding: 3px 8px; border-radius: 12px; font-size: 0.85em; font-weight: bold; color: #fff; margin-bottom: 6px; }
   .tag-psy { background-color: var(--psy); }
   .tag-stat { background-color: var(--stat); }
   .tag-code { background-color: var(--code); }
-  .tag-lang { background-color: var(--lang); }
-  .tag-job { background-color: #7f8c8d; }
-  .high-energy { background-color: #ff6b6b; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; }
-  .med-energy { background-color: #feca57; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; }
-  .low-energy { background-color: #1dd1a1; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; }
-  .highlight { background: #fff3cd; padding: 2px 5px; border-radius: 3px; font-weight: bold; color: #d35400; }
-  .quote-box { background-color: #eef7fa; border-left: 4px solid #3498db; padding: 15px; margin: 15px 0; color: #444; font-style: italic; }
+  .highlight { color: #C0392B; font-weight: bold; }
+  .exam-focus { background: #FFF3CD; padding: 4px 6px; border-radius: 3px; font-size: 0.85em; display: block; margin-top: 5px; border-left: 3px solid #F39C12; }
 </style>
 </head>
 <body>
 
 <div class="container">
-  <h1>🌟 兩年期無壓跨領域完整計畫：轉考 ✕ 全端 ✕ 雙語</h1>
-  <p style="text-align: center; font-size: 1.1em; color: #555;">將一年壓縮至12週執行，但將總計畫拉長至兩年。以最高產出、最低壓力的節奏達成多重目標！[3, 14]</p>
-
-  <div class="methodology">
-    <strong>🧠 系統核心運作邏輯：</strong>
-    <ul>
-      <li><strong>168 小時法則：</strong> 一週 168 小時，扣除兼職與睡眠，您還有約 72 小時的自由時間 [15]。</li>
-      <li><strong>帕金森定律：</strong> 工作會膨脹填滿可用時間 [16]。縮短每個小目標的期限（12週）能逼迫大腦專注於高價值的關鍵行動 [14]。</li>
-      <li><strong>能量狀態管理：</strong> 不用同一種能量做所有事。精神好時攻克無計算機的手算統計或寫 Code；精神差時背單字或去兼職（動態休息）[4]。</li>
-      <li><strong>科目交錯 (Interleaving)：</strong> 讓掌管記憶的心理學、掌管邏輯的程式與統計交替運作，避免大腦彈性疲乏。</li>
-    </ul>
-  </div>
-
-  <h2>第一模組：指標管理與目標拆解 (以第一季 Q1 為例)</h2>
-  <div class="indicator-box">
-    <h3 style="margin-top: 0; color: var(--code);">🏆 落後指標 (Lagging Indicators - 12週後想看到的成果)</h3>
-    <p>能被衡量的才能被管理 [3]。每 12 週設定明確可量化的成果：</p>
-    <ul>
-      <li>精讀《心理學導論》第 1-9 章，建立中英專有名詞庫（應對台綜大英文選擇題）[5, 17]。</li>
-      <li>掌握《心理與教育統計學》敘述統計至基礎假設檢定，能<b>無計算機</b>手算平均數與標準差 [7, 18]。</li>
-      <li>完成 3 個 HTML/CSS 靜態網頁模仿與 1 個純 JS 動態專案 [11]。</li>
-      <li>累積背誦 1,260 個英單 (每日 15 字) 與德文 A1.1 基礎文法。</li>
-    </ul>
-  </div>
+  <h1>🚀 兩年期 (Q1-Q8) 跨領域無壓養成全景計畫表</h1>
   
-  <div class="indicator-box">
-    <h3 style="margin-top: 0; color: var(--code);">📈 領先指標 (Leading Indicators - 過程數據)</h3>
-    <p>提前預測你是否能達標的行為數據 [3, 19]：</p>
+  <div class="philosophy">
+    <strong>💡 執行心法與指標管理：</strong>
     <ul>
-      <li>每週達成 3 次高耗能「程式開發」時間區塊。</li>
-      <li>每週達成 3 次高耗能「統計學手算」時間區塊。</li>
-      <li>每週執行力維持在 60%~80% 即算及格，不追求完美 [2, 20]。</li>
+      <li><strong>能量管理：</strong>依據大腦狀態，精神好時（高耗能）解 LeetCode 或手算統計 [3]；精神差時（低耗能）背每日 15 單字或去兼職，讓兼職成為大腦的「動態休息」。</li>
+      <li><strong>時間追蹤與 168 小時法則：</strong>扣除睡眠與兼職，每週仍有 72 小時黃金時間 [4]。隨時記錄時間去向，抓出無意識的滑手機干擾。</li>
+      <li><strong>接受不完美：</strong>計算每週「執行力百分比」，若落在 50%-70% 也是正常的 [17]。週末保留彈性緩衝，若進度落後在週日補齊，若達標則全天放假休息 [5]！</li>
     </ul>
   </div>
 
-  <h2>第二模組：兩年期 (8個12週) 宏觀進度藍圖</h2>
+  <!-- ==================== Q1 ==================== -->
+  <h2>📅 第一年 Q1：地基建設期 (Week 1 - Week 12)</h2>
   <table>
     <tr>
-      <th width="12%">年份/週期</th>
-      <th width="33%"><span class="tag tag-psy">心理學</span> & <span class="tag tag-stat">統計學 (台綜大/台大重點)</span></th>
-      <th width="30%"><span class="tag tag-code">全端工程師養成</span></th>
-      <th width="25%"><span class="tag tag-lang">雙語計畫</span></th>
+      <th>週次</th>
+      <th><span class="tag tag-psy">心理學 & 統計學 (轉考核心)</span></th>
+      <th><span class="tag tag-code">全端開發 & 雙語計畫</span></th>
     </tr>
     <tr>
-      <td><b>Year 1<br>Q1 - Q2</b><br>(第1-6個月)</td>
+      <td class="week-col">W1-W3<br>觀念啟蒙</td>
       <td>
-        <b>心理：</b>Ch1-9。重點掌握神經系統(hypothalamus)、Piaget 認知階段、古典與操作制約(classical/operant conditioning)、記憶系統 [5, 6, 9, 21, 22]。</br>
-        <b>統計：</b>Ch1-6。敘述統計、機率、常態分配。<span class="highlight">必須徒手估算極端值剔除影響</span> [7, 23]。
+        <b>心理：</b>Ch1 心理學本質 (實驗法、隨機分派、基本歸因謬誤) [7, 18]。Ch2 生物基礎 (腦葉與神經傳導)。<br>
+        <b>統計：</b>Ch1-2 敘述統計學。練習無計算機手算平均數與標準差，了解極端值影響 [19-23]。
       </td>
       <td>
-        <b>HTML/CSS 與 JS 底層：</b><br>
-        完成靜態網頁排版。精通 JS 的 Array Methods (map, filter) 與非同步 Promise [11]。
+        <b>程式：</b>HTML/CSS 實戰，切出 3 個靜態網頁 (如 Apple 首頁) [10]。<br>
+        <b>語言：</b>建立英/德字卡。每日 15 英單 + 10 德單 (A1.1 基礎問候)。
       </td>
-      <td><b>英文：</b>每日 15 字，累積 2,500 字。<br><b>德文：</b>A1.1 基礎發音與文法 (Duolingo 每日打卡)。</td>
     </tr>
     <tr>
-      <td><b>Year 1<br>Q3 - Q4</b><br>(第7-12個月)</td>
+      <td class="week-col">W4-W6<br>核心推進</td>
       <td>
-        <b>心理：</b>Ch10-18。重點：五大人格(Big Five)、基本歸因謬誤(fundamental attribution error)、精神疾病(Schizophrenia)、Milgram服從實驗 [6, 10, 24-27]。</br>
-        <b>統計：</b>Ch7-10。獨立/配對 t檢定、型一錯誤與 Power、符號檢定 (Sign test) 的手算 [7, 8, 28]。
+        <b>心理：</b>Ch3 心理發展 (Piaget 認知四階段、Kohlberg 道德發展) [24-29]。Ch4-5 感覺與知覺 (完形分組、深度線索) [30-33]。<br>
+        <b>統計：</b>Ch3 常態分配與 Q-Q Plots [34-38]。Ch4 抽樣與假設檢定 (Type I/II 錯誤)。
       </td>
       <td>
-        <b>Vue 3 核心與 TS 基礎：</b><br>
-        學習 Composition API、Vue Router。將專案引入 TypeScript 型別定義 [12]。
+        <b>程式：</b>JS 變數與邏輯、Array Methods (map, filter, reduce) [11]。<br>
+        <b>語言：</b>累積達 630 單字。兼職時段不碰書，轉換情境。
       </td>
-      <td><b>英文：</b>每日 15 字，累積 5,000 字。<br><b>德文：</b>A1.2 程度，掌握現在與基礎過去式。</td>
     </tr>
     <tr>
-      <td><b>Year 2<br>Q5 - Q6</b><br>(第13-18個月)</td>
+      <td class="week-col">W7-W9<br>難度升級</td>
       <td>
-        <b>心理：</b>第一次考古題統整。針對申論題練習中文輸出（如：定義自我效能 self-efficacy、說明行為主義教育應用）[29]。</br>
-        <b>統計：</b>Ch11-14。單因子與二因子 ANOVA，<span class="highlight">徒手計算 SST, SSW, F 值</span>、多元迴歸殘差與 R平方 [7, 8, 30, 31]。
+        <b>心理：</b>Ch6 意識狀態 (REM 睡眠、藥物)。Ch7 學習 (古典制約、操作制約的四種增強時制 FR/VR/FI/VI) [8, 9, 39-42]。<br>
+        <b>統計：</b>Ch5 機率與排列組合 [43, 44]。Ch6 卡方檢定 (Chi-square 手算) [45-49]。
       </td>
       <td>
-        <b>全端架構與資料庫：</b><br>
-        Node.js, Express, PostgreSQL 設計。實作 RESTful API 與 JWT 驗證 [13]。
+        <b>程式：</b>JS 非同步處理 (Promise、Async/Await)、DOM 操作 [11]。<br>
+        <b>語言：</b>累積達 945 單字。每週日檢視「執行力百分比」。
       </td>
-      <td><b>英文：</b>每日 20 字，累積 7,500 字。<br><b>德文：</b>A2.1，開始聽 Easy German Podcast。</td>
     </tr>
     <tr>
-      <td><b>Year 2<br>Q7 - Q8</b><br>(第19-24個月)</td>
+      <td class="week-col">W10-W12<br>統整專案</td>
       <td>
-        <b>轉考衝刺：</b>限時無計算機寫台綜大 A1702 考古題。熟悉台大選擇題的全英文題幹適應 [5, 7, 32]。
+        <b>心理：</b>Ch8 記憶 (工作記憶 7±2、組塊 Chunking、初始/新近效應、童年失憶症) [50-57]。<br>
+        <b>統計：</b>Ch7 t-test 檢定 (獨立與配對樣本手算 p-value) [58-65]。
       </td>
       <td>
-        <b>大型專案與求職：</b><br>
-        開發 B2C 電商平台，Docker 部署。每日一題 LeetCode Easy 鍛鍊邏輯 [33]。
+        <b>程式：</b>Q1 專案：純 JS 串接 API 打造「天氣即時預報」[11]。Git 基礎版控。<br>
+        <b>語言：</b>達成 Q1 1,260 單字目標。第 12 週週末徹底放空休息！
       </td>
-      <td><b>英文：</b>每日 20 字，達標 10,000 字。<br><b>德文：</b>A2.2，具備基礎對話能力。</td>
     </tr>
   </table>
 
-  <h2>第三模組：每週時區區塊與能量管理 (Time Blocking)</h2>
-  <p>不要在精神最差的時候讀原文書！將兼職排在傍晚作為「情境轉換」，讓大腦潛意識去消化早上的複雜邏輯 [4]。</p>
+  <!-- ==================== Q2 ==================== -->
+  <h2>📅 第一年 Q2：框架導入期 (Week 13 - Week 24)</h2>
   <table>
     <tr>
-      <th width="15%">時間區段</th>
-      <th width="42%">一、三、五 <span class="tag tag-code">Tech Day (寫扣日)</span></th>
-      <th width="43%">二、四、六 <span class="tag tag-stat">Psy/Stat Day (轉考日)</span></th>
+      <th>週次</th>
+      <th><span class="tag tag-psy">心理學 & 統計學 (轉考核心)</span></th>
+      <th><span class="tag tag-code">全端開發 & 雙語計畫</span></th>
     </tr>
     <tr>
-      <td><b>08:30 - 09:30</b><br><span class="low-energy">低耗能</span></td>
-      <td><b>雙語暖身：</b>吃早餐配 15 個英單 + 10 個德單。</td>
-      <td><b>雙語暖身：</b>吃早餐配 15 個英單 + 10 個德單。</td>
+      <td class="week-col">W13-W15<br>框架重構</td>
+      <td>
+        <b>心理：</b>Ch9 語言與思考 (捷思法 Heuristics、框架效應、手段-目的分析) [66-73]。<br>
+        <b>統計：</b>Ch8 考驗力分析 (Power, G*Power 軟體應用與手算概念) [74-81]。
+      </td>
+      <td>
+        <b>程式：</b>Vue 3 核心 (Composition API, setup, Computed) [12]。<br>
+        <b>語言：</b>每日維持低耗能背誦，進入高中進階單字。德文 A1.2。
+      </td>
     </tr>
     <tr>
-      <td><b>09:30 - 12:00</b><br><span class="high-energy">高耗能</span></td>
-      <td><b>全端開發 (2.5hr)：</b><br>專注於寫 Code。推進 Vue 組件實作或 LeetCode 演算法 [33]。</td>
-      <td><b>統計學計算 (2.5hr)：</b><br>閱讀 Howell 原文書。拿白紙練習無計算機的 t-test 或 ANOVA 運算 [18, 30]。</td>
+      <td class="week-col">W16-W18<br>型別驗證</td>
+      <td>
+        <b>心理：</b>Ch10 動機與情緒 (內在/外在動機、過度辯正效應) [82]。Ch11 情緒評估理論 [83-87]。<br>
+        <b>統計：</b>Ch9 相關與迴歸 (Pearson r, 簡單線性迴歸預測) [88-91]。
+      </td>
+      <td>
+        <b>程式：</b>TypeScript 介入。將專案內 `any` 替換為 `Interface` 或 `Type`，培養強型別思維 [13]。
+      </td>
     </tr>
     <tr>
-      <td><b>12:00 - 13:30</b></td>
-      <td colspan="2" style="text-align: center; color: #7f8c8d; background: #fafafa;">🍔 午餐、午睡 ＋ 絕對放空（不碰書本與螢幕）</td>
+      <td class="week-col">W19-W21<br>複雜分析</td>
+      <td>
+        <b>心理：</b>Ch12 智力理論 (史比量表、魏氏智力測驗 WAIS、Sternberg 三元論) [92-97]。<br>
+        <b>統計：</b>Ch10 替代相關 (點二系列相關 Point-biserial) [98-100]。
+      </td>
+      <td>
+        <b>程式：</b>Vue Router 路由控管與 Pinia 全域狀態管理 [13]。<br>
+        <b>語言：</b>累積達 2,500 單字。德文能看懂簡單短文。
+      </td>
     </tr>
     <tr>
-      <td><b>13:30 - 15:30</b><br><span class="med-energy">中耗能</span></td>
-      <td><b>德文文法 / 技術筆記 (1hr)：</b><br>整理當週學到的 JS 觀念，或看德文教學影片。<br><i>*剩餘 1hr 自由活動</i></td>
-      <td><b>心理學導論 (2hr)：</b><br>精讀中文導論，對照英文專有名詞 (如 <i>cognitive dissonance, prosopagnosia</i>) [6, 34]。</td>
-    </tr>
-    <tr>
-      <td><b>16:00 - 21:00</b><br><span class="tag tag-job">轉換情境</span></td>
-      <td colspan="2" style="text-align: center; font-weight: bold; background: #fdf2e9;">🏃‍♂️ 兼職工作時段：將勞動或人際應對視為大腦的「動態休息區」。</td>
-    </tr>
-    <tr>
-      <td><b>21:30 - 22:30</b><br><span class="low-energy">低耗能</span></td>
-      <td><b>時間追蹤：</b>紀錄今日花費時間。看看輕鬆的技術 YouTube [15]。</td>
-      <td><b>時間追蹤：</b>紀錄時間。回顧今天背錯的單字或算錯的統計題 [15]。</td>
+      <td class="week-col">W22-W24<br>統整專案</td>
+      <td>
+        <b>心理：</b>Ch13 性格 (五大性格特質 Big Five、MMPI 測驗建構) [101, 102]。<br>
+        <b>統計：</b>Ch11 單因子變異數分析 (One-way ANOVA) 手算 SST, SSW, F 值 [6, 103-105]。
+        <span class="exam-focus">台綜大手寫重點：無計算機計算 ANOVA 摘要表。</span>
+      </td>
+      <td>
+        <b>程式：</b>Q2 專案：開發具備 TS 驗證的「個人專案管理系統 (如 Trello)」。<br>
+        <b>回顧：</b>檢討前半年的執行力，評估兼職與學習的平衡點 [17]。
+      </td>
     </tr>
   </table>
-  <p style="font-size: 0.9em; color: #e74c3c;"><b>*星期日保留緩衝：</b> 完全不排新進度！用於補齊平日落後的進度；若都有達成，則全天放假休息，避免壓力過載 [4]。</p>
 
-  <h2>第四模組：追蹤時間與每週覆盤 (Weekly Review)</h2>
-  
-  <div class="methodology" style="background: #fff; border-color: #3498db;">
-    <h3>⏱️ 追蹤時間 (Time Tracking)</h3>
-    <p>「很多人覺得自己沒有時間，其實是不知道時間花去哪了。」每做完一件事，花十秒紀錄。這能幫助你抓出無意識的滑手機中斷（例如：原本要讀書，結果跑去幫寵物洗澡）[15, 35]。</p>
+  <!-- ==================== Q3 ==================== -->
+  <h2>📅 第二年 Q3：後端與社會心理學 (Week 25 - Week 36)</h2>
+  <table>
+    <tr>
+      <th>週次</th>
+      <th><span class="tag tag-psy">心理學 & 統計學 (轉考核心)</span></th>
+      <th><span class="tag tag-code">全端開發 & 雙語計畫</span></th>
+    </tr>
+    <tr>
+      <td class="week-col">W25-W27<br>API 開發</td>
+      <td>
+        <b>心理：</b>Ch14 壓力與健康 (一般適應症候群 GAS、問題/情緒焦點因應、A型性格) [106-111]。<br>
+        <b>統計：</b>Ch12 多重比較 (Tukey HSD, Fisher LSD) 的臨界值計算與差異 [112-118]。
+      </td>
+      <td>
+        <b>程式：</b>Node.js + Express 建立 Web Server，RESTful API 設計 [14]。<br>
+        <b>語言：</b>進入托福 3000 單字範疇。德文 A2.1，開始聽 Easy German Podcast。
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">W28-W30<br>資料庫設計</td>
+      <td>
+        <b>心理：</b>Ch15 精神疾病 (思覺失調症、解離性認同障礙、憂鬱症) [119, 120]。<br>
+        <b>統計：</b>Ch13 二因子變異數分析 (Factorial ANOVA) 交互作用與主要效果的手算 [121-133]。
+      </td>
+      <td>
+        <b>程式：</b>PostgreSQL 關聯式資料庫設計。重點學習 SQL 查詢語法與 Index 優化 [14]。
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">W31-W33<br>社會影響</td>
+      <td>
+        <b>心理：</b>Ch16 治療 (系統減敏感法、認知行為治療 CBT) [134-136]。Ch17 社會影響 (Milgram 服從實驗、認知失調) [137-139]。<br>
+        <b>統計：</b>Ch14 重複測量設計 (Repeated-Measures ANOVA) 概念與誤差項處理 [140-150]。
+      </td>
+      <td>
+        <b>程式：</b>實作 JWT (JSON Web Token) 會員登入權限驗證功能 [14]。
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">W34-W36<br>統整專案</td>
+      <td>
+        <b>心理：</b>Ch18 社會認知 (刻板印象自動化、基本歸因謬誤、推敲可能性模式 ELM) [7, 151-156]。<br>
+        <b>統計：</b>總複習 ANOVA 與迴歸模型。準備進入無母數統計。
+      </td>
+      <td>
+        <b>程式：</b>Q3 專案：完成 1 支完整的後端 API 服務並與前端對接。Docker 容器化初探 [15]。
+      </td>
+    </tr>
+  </table>
 
-    <h3>🔍 週末的四種「執行力」情境分析</h3>
-    <p>每週末計算本週的<b>「執行力百分比」</b>（完成的關鍵行動 ÷ 總計畫數）。根據結果進行無壓力優化，不要盲目苛責自己 [35-37]：</p>
-    <ul style="line-height: 1.8;">
-      <li>✅ <b>情境一 (執行力 > 80%，指標有達成)：</b> 計畫非常完美，維持現狀！繼續保持這個節奏 [2]。</li>
-      <li>⚠️ <b>情境二 (執行力 < 80%，指標未達成)：</b> 專注力被干擾了。下週先嘗試排除分心源（如減少社交媒體），先不改計畫 [2]。</li>
-      <li>🔄 <b>情境三 (執行力 > 80%，指標未達成)：</b> 你很努力但「方法無效」（例如狂背單字但還是看不懂原文書）。請果斷改變讀書策略 [2, 38]。</li>
-      <li>😌 <b>情境四 (執行力 < 80%，指標卻達成)：</b> 你的標準設太嚴格了！請放過自己，調降每日讀書時數，保持輕鬆無壓 [38]。</li>
-    </ul>
+  <!-- ==================== Q4 ==================== -->
+  <h2>📅 第二年 Q4：進階考點與大型專案 (Week 37 - Week 48)</h2>
+  <table>
+    <tr>
+      <th>週次</th>
+      <th><span class="tag tag-psy">心理學 & 統計學 (轉考核心)</span></th>
+      <th><span class="tag tag-code">全端開發 & 雙語計畫</span></th>
+    </tr>
+    <tr>
+      <td class="week-col">W37-W39<br>無母數統計</td>
+      <td>
+        <b>心理：</b>台大、台綜大選擇題庫開始演練。熟悉原文書英文題幹。<br>
+        <b>統計：</b>Ch18 無母數統計 (Kruskal-Wallis, 符號檢定 Sign test, 魏氏等級和) [157-162]。
+        <span class="exam-focus">台綜大極愛考 Sign Test 計算。</span>
+      </td>
+      <td>
+        <b>程式：</b>啟動「B2C 電商平台」畢業大作。整合 Vue 3 + Pinia + Node.js + DB [15]。<br>
+        <b>語言：</b>累積達 7,000 單字。德文 A2.2。
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">W40-W42<br>申論題輸出</td>
+      <td>
+        <b>心理：</b>開始練習將心理學概念「用中文精確定義」。(如：用中文解釋自我效能、說明由上而下知覺歷程) [18]。<br>
+        <b>統計：</b>多元迴歸概念、殘差分析、迴歸與 ANOVA 的關聯 (General Linear Model)。
+      </td>
+      <td>
+        <b>程式：</b>持續專案開發，處理購物車狀態管理與金流 API 概念測試。
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">W43-W45<br>演算法與邏輯</td>
+      <td>
+        <b>心理：</b>跨章節統整（例如：將各學派的「學習觀點」與「治療方法」做橫向比較）。<br>
+        <b>統計：</b>歷屆考古題手寫訓練。針對計算容易出錯的章節進行盲點突破。
+      </td>
+      <td>
+        <b>程式：</b>每天早上 30 分鐘 LeetCode Easy 白板題 (Hash Map, Linked List) 訓練思維 [15]。
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">W46-W48<br>統整專案</td>
+      <td>
+        <b>轉考實戰：</b>完成近五年台綜大 A1701、A1702 考古題。檢視答題速度與無計算機運算的準確度。<br>
+      </td>
+      <td>
+        <b>程式：</b>Q4 專案上線。部署至 Render/Vercel，確保專案具備作品集展示價值 [15]。<br>
+        <b>語言：</b>突破 8,000 單字大關！
+      </td>
+    </tr>
+  </table>
+
+  <!-- ==================== Q5 ==================== -->
+  <h2>📅 第二年 Q5：刷題深化與作品包裝 (Week 49 - Week 60)</h2>
+  <table>
+    <tr>
+      <th>週次</th>
+      <th><span class="tag tag-psy">心理學 & 統計學 (轉考核心)</span></th>
+      <th><span class="tag tag-code">全端開發 & 雙語計畫</span></th>
+    </tr>
+    <tr>
+      <td class="week-col">W49-W51<br>履歷與錯題</td>
+      <td>
+        <b>錯題本建立：</b>針對 Q4 寫錯的普心英文選擇題，回頭查閱原文書對應段落，整理「專有名詞陷阱字卡」。<br>
+        <b>統計：</b>專攻常態分配機率面積、型一/型二錯誤率的圖解計算。
+      </td>
+      <td>
+        <b>職場包裝：</b>優化 GitHub README，撰寫系統架構圖與技術難點分享文章 [15, 16]。
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">W52-W54<br>考古題二刷</td>
+      <td>
+        <b>心理：</b>針對台大與政大的考古題進行延伸打擊，擴充知識庫邊界。<br>
+        <b>統計：</b>重新手算一遍 Howell 課本後面的奇數練習題，鍛鍊對數字的敏感度。
+      </td>
+      <td>
+        <b>程式：</b>每週投遞 5 份履歷試水溫，參加初階前端或全端工程師面試 [15]。<br>
+        <b>語言：</b>累積達 8,500 單字。
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">W55-W60<br>技術寫作</td>
+      <td>
+        <b>考前防彈：</b>保持每週 2 份統計考卷的手感。專注練習申論題的「排版」與「舉例豐富度」。
+      </td>
+      <td>
+        <b>程式：</b>將面試被問倒的題目，寫成 3 篇高質量的技術部落格文章，展示學習能力 [16]。
+      </td>
+    </tr>
+  </table>
+
+  <!-- ==================== Q6-Q8 ==================== -->
+  <h2>📅 第二年 Q6-Q8：極限衝刺與心態調整 (Week 61 - Week 96)</h2>
+  <div class="indicators">
+    <p>此階段已進入轉學考前半年與求職的高峰期。重點不再是「學新東西」，而是「防錯」與「展現成果」。</p>
   </div>
+  <table>
+    <tr>
+      <th>週期</th>
+      <th><span class="tag tag-psy">心理轉考衝刺策略</span></th>
+      <th><span class="tag tag-code">面試與雙語最後一哩路</span></th>
+    </tr>
+    <tr>
+      <td class="week-col">Q6 (W61-W72)<br>火力全開</td>
+      <td>
+        <b>限時模擬考：</b>每週末早起，完全模擬真實考試時間（不可用計算機、全程計時）。<br>
+        針對台綜大的申論題（如解釋自我效能、刻板印象威脅 [151]），練習在 10 分鐘內寫出包含前言、定義、舉例、結論的完整架構。
+      </td>
+      <td>
+        <b>面試訓練：</b>進行白板題與系統設計 (System Design) 的口語表達訓練。<br>
+        <b>語言：</b>突破 9,500 單字。
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">Q7 (W73-W84)<br>收斂與防守</td>
+      <td>
+        <b>重點防守：</b>不再看新的教科書，反覆翻閱自己過去 18 個月整理的「名詞中英字卡」與「統計手算錯誤筆記」。<br>
+        <b>心態調適：</b>若模擬考成績起伏，不要陷入焦慮。運用《12週工作法》的思維：關注「過程（領先指標）」，只要今天有讀滿計畫時數，就是成功 [17, 163]。
+      </td>
+      <td>
+        <b>Offer 選擇：</b>若順利取得 Offer，可選擇兼職或彈性工時，將主要心力拉回轉學考。<br>
+        <b>語言：</b>達成 10,000 英文單字終極目標！🎉
+      </td>
+    </tr>
+    <tr>
+      <td class="week-col">Q8 (W85-W96)<br>終極考前緩衝</td>
+      <td>
+        <b>生理時鐘調整：</b>將作息調整至與考試當天完全一致。保持大腦在早上 9:00 - 12:00 處於最高耗能的運作狀態 [3]。<br>
+        <b>考前留白：</b>最後一週完全不安排新進度，只做冥想、散步、回顧最核心的統計公式。
+      </td>
+      <td>
+        帶著 10,000 單字量、流利的德文日常對話能力、全端工程師的思維，以及強大的心理學與統計學知識，<b>從容走入考場與職場</b>！
+      </td>
+    </tr>
+  </table>
 
 </div>
 
